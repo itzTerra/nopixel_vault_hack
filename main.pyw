@@ -20,8 +20,9 @@ def geocenter(size: str):
 
 root = Tk()
 root.title("Hack Minigame")
-geocenter("1200x700")
 root.iconphoto(True, PhotoImage(file="img/spy-icon_32.png"))
+geocenter("1200x700")
+root.resizable(False, False)
 
 C_PRIMARY = "#20242E"
 C_SECONDARY = "#2E4561"
